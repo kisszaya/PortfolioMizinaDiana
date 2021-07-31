@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  background-color: #F9F9FB;
+  background-image: url(../img/bg.svg);
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.headerr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ECE8E4;
+  padding: 38px 48px 16px 48px;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: black;
+}
+
+.header-picture {
+  width: 304px;
+  height: 301px;
+  padding: 16px 48px 24px 48px;
+  border-bottom: 2px solid #ECE8E4;
+}
+
+.block-type p {
+  padding: 9px 48px 10px 48px;
+  margin-top: 7px;
+  background-color: #ECE8E4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.block {
+  padding: 16px 48px 24px 48px;
+  border-bottom: 2px solid #ECE8E4;
+}
+
+h4 {
+  max-width: 304px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.skill {
+  width: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 6px;
+}
+
+.last {
+  margin-bottom: 0px;
+}
+
+.skill img {
+  width: 19px;
+  height: 19px;
+}
+
+h1 {
+  margin-top: 12px;
+  max-width: 304px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.skill img {
+  margin-left: 12px;
+}
+
+.time-and-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 6px;
+}
+
+h2 {
+  max-width: 304px;
+  margin-bottom: 3px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 135%;
+}
+
+.time {
+  max-width: 304px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.duties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 32px;
+  margin-bottom: 0px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+}
+
+.duty {
+  width: 264px;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 135%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.achievements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 16px;
+}
+
+.achivment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 12px;
+}
+
+.achivment p {
+  width: 288px;
+  margin-left: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 135%;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
